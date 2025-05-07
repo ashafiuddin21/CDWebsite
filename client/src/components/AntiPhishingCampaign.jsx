@@ -6,7 +6,7 @@ import {
   MoonIcon
 } from "lucide-react";
 import { motion } from "framer-motion";
-import LandingImage from "C:/Users/Lady Ayesha/Desktop/website2/CDWebsite/client/src/assets/img.png";
+import LandingImage from "../assets/img.png";
 
 export default function AntiPhishingCampaign() {
   const [email, setEmail] = useState("");
@@ -64,10 +64,10 @@ export default function AntiPhishingCampaign() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
           <h1 className="text-xl font-bold">🛡️ Anti-Phishing Campaign</h1>
           <div className="flex gap-6 text-blue-600 dark:text-blue-400">
-            <a href="#overview" className="hover:underline">Overview</a>
-            <a href="#what" className="hover:underline">What is Phishing</a>
-            <a href="#spot" className="hover:underline">How to Spot</a>
-            <a href="#signup" className="hover:underline">Sign Up</a>
+            <a href="#overview" className="hover:underline">Overview    .</a>
+            <a href="#what" className="hover:underline">What is Phishing    .</a>
+            <a href="#spot" className="hover:underline">How to Spot   .</a>
+            <a href="#signup" className="hover:underline">Sign Up   .</a>
           </div>
           <button
   onClick={() => setDarkMode(!darkMode)}
